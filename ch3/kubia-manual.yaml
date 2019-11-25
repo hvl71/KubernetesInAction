@@ -2,6 +2,9 @@
   kind: Pod
   metadata:
     name: podmanually2
+    labels:
+      creation_method: manual
+      env: test  
   spec:
     containers:
     - image: hvl71/kubia
