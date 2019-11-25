@@ -1,0 +1,11 @@
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: podmanually2
+  spec:
+    containers:
+    - image: hvl71/kubia
+      name: test2
+      ports:
+      - containerPort: 8080
+        protocol: TCP
